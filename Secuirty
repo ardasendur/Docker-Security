@@ -1,0 +1,4 @@
+Use specific package version
+Don't run as root.  
+Make file system read only  - chmod a-w /etc
+Remove shell access         - RUN rm -rf /bin/*
