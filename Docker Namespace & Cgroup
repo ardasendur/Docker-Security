@@ -1,0 +1,17 @@
+Common control groups
+  CPU
+  Memory
+  Network Bandwidth
+  Disk
+  Priority
+
+Namespace Types:
+  Process ID
+  Mount
+  IPC (Interprocess communication)
+  User (currently experimental support for)
+  Network 
+
+
+Container cs uses same namespace for container c1
+docker run -d --name c2 --pid=container:c1 ubuntu sh -c "sleep 99d"

@@ -1,2 +1,0 @@
-Container cs uses same namespace for container c1
-docker run -d --name c2 --pid=container:c1 ubuntu sh -c "sleep 99d"
